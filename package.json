@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "This is a full-stack MERN application with a modern and scalable setup.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend &&  npm install --prefix frontend && npm run build --prefix frontend",
+     "start": "npm run start --prefix backend"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DineshSethu001/MERN-ChatApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DineshSethu001/MERN-ChatApp/issues"
+  },
+  "homepage": "https://github.com/DineshSethu001/MERN-ChatApp#readme"
+}
